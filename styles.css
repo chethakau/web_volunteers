@@ -1,0 +1,53 @@
+.title {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #395080; text-decoration: none}
+.bullet {  list-style-image:  url(images/bullet.jpg)}
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 19px; color: #000000; text-decoration: none}
+a:hover {  color: #4866A4; text-decoration: none}
+.footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal; color: #FFFFFF; font-weight: normal; text-decoration: none}
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #2C3D61; text-decoration: underline}
+a {  }
+a {  }
+.footer:hover { color: #FFFFFF; text-decoration: underline}
+.menutext {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.mlinks {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #CC0000; text-decoration: none}
+.menucolo{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #395080; text-decoration: none}
+.menutext:hover { color: #B3B79D; text-decoration: none }
+.greentext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #306267 }
+.text:hover { color: #395080; text-decoration: none }
+
+
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 0px solid #ffffff;
+    padding: 5px 25px 5px 25px;
+    background: #395080;
+    margin-left: 0px;
+    
+}
+ul li a:hover {
+background: #3b3b3b;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li {
+    float: none;
+    font-size: 5px;
+}
